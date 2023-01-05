@@ -1,15 +1,15 @@
 export const data = [
 	{
 		to: '/',
-		text: 'About',
+		text: 'Holding',
 		id: 'about',
 	},
 	{
 		to: '/pricing',
-		text: 'Pricing',
+		text: 'Serviços',
 	},
 	{
 		to: '/signup',
-		text: 'Contact',
+		text: 'Contato',
 	},
 ];
