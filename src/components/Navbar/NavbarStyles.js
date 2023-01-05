@@ -24,7 +24,9 @@ export const NavbarContainer = styled(Container)`
 	height: 80px;
 	max-width: none;
 
+
 	${Container}
+
 `;
 
 export const NavLogo = styled(Link)`
@@ -37,6 +39,13 @@ export const NavLogo = styled(Link)`
 	align-items: center;
 	z-index: 50;
 	white-space: nowrap;
+
+	@media screen and (max-width: 960px) {
+		white-space: normal;
+		text-align: left;
+		font-size: 1.8rem;
+		margin-left: -1.5rem;
+    }
 `;
 
 export const NavIcon = styled.img`
