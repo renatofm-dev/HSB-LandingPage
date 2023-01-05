@@ -22,6 +22,7 @@ export const NavbarContainer = styled(Container)`
 	display: flex;
 	justify-content: start;
 	height: 80px;
+	max-width: none;
 
 	${Container}
 `;
@@ -35,6 +36,7 @@ export const NavLogo = styled(Link)`
 	display: flex;
 	align-items: center;
 	z-index: 50;
+	white-space: nowrap;
 `;
 
 export const NavIcon = styled.img`

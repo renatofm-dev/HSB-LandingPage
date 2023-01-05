@@ -48,7 +48,7 @@ const Navbar = () => {
 				<NavbarContainer>
 					<NavLogo to="/">
 						<NavIcon src="./assets/logo.png" alt="logo" />
-						Delta
+						Holding System Brazil
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}
