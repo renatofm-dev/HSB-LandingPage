@@ -10,7 +10,7 @@ const Hero = () => {
 			<Container>
 				<MainHeading>Planejamento Patrimonial Inteligente</MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					Melhorando a saúde e segurança de seu patrimônio em todo o Brasil
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">
