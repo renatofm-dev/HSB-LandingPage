@@ -20,7 +20,7 @@ export const heroTwo = {
 	},
 	headline: 'The best practices',
 	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
+	buttonLabel: 'veja mais',
 
 	linkTo: '/more',
 	imgStart: 'start',
@@ -37,7 +37,7 @@ export const heroThree = {
 	headline: 'Why us? ',
 	description:
 		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+	buttonLabel: 'veja mais',
 
 	linkTo: '/download',
 	imgStart: '',

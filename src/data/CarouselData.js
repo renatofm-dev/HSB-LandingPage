@@ -7,7 +7,7 @@ export const data = [
 	},
 	{
 		title: 'Our security ',
-		description: 'Learn more about our security systems to make sure your data is always safe',
+		description: 'saiba mais about our security systems to make sure your data is always safe',
 		image: './assets/security.jpg',
 	},
 	{
