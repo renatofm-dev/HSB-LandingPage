@@ -47,7 +47,7 @@ const Navbar = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assets/logo.png" alt="logo" />
+						<NavIcon src="./assets/logo-hsb192.png" alt="logo" />
 						Holding System Brazil
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>

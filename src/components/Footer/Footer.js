@@ -22,11 +22,11 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
-							Delta
+							<SocialIcon src="./assets/logo-hsb192.png" />
+							HSB
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+						Edifício Fusion Working Live, SHN Q. 1 BL D S. 408B - Asa Norte, Brasília - DF, 70701-040
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
