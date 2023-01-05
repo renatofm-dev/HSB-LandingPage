@@ -33,7 +33,7 @@ function Footer() {
 							{footerSocialData.map((social, index) => (
 								<FooterSocialIcon
 									key={index}
-									href="/"
+									href= {social.link}
 									target="_blank"
 									aria-label={social.name}
 								>
@@ -46,14 +46,14 @@ function Footer() {
 						<FooterLinkItems key={index}>
 							<FooterLinkTitle>{footerItem.title}</FooterLinkTitle>
 							{footerItem.links.map((link, linkIndex) => (
-								<FooterLink key={linkIndex} to="/">
+								<FooterLink key={linkIndex} to="/name">
 									{link}
 								</FooterLink>
 							))}
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>Delta © 2021</FooterRights>
+				<FooterRights>Holding System Brazil © 2021</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);

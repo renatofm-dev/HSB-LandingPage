@@ -7,22 +7,28 @@ export const footerSocialData = [
 	{
 		name: 'Facebook',
 		icon: iconStyle(FaFacebook),
+		link: "/",
 	},
 	{
 		name: 'Instagram',
 		icon: iconStyle(FaInstagram),
+		link: "https://www.instagram.com/holdingsystem/"
 	},
 	{
 		name: 'YouTube',
 		icon: iconStyle(FaYoutube),
+		link: "/",
+
 	},
 	{
 		name: 'Twitter',
 		icon: iconStyle(FaTwitter),
+		link: "/",
 	},
 	{
 		name: 'LinkedIn',
 		icon: iconStyle(FaLinkedin),
+		link: "/",
 	},
 ];
 
@@ -31,14 +37,14 @@ export const footerData = [
 		title: 'Main',
 		links: ['Blog', 'FAQs', 'Support', 'About us'],
 	},
-	{
-		title: 'Product',
-		links: ['Login', 'Personal', 'Business', 'Team'],
-	},
-	{
-		title: 'Press',
-		links: ['Logos', 'Events', 'Stories', 'Office'],
-	},
+	// {
+	// 	title: 'Product',
+	// 	links: ['Login', 'Personal', 'Business', 'Team'],
+	// },
+	// {
+	// 	title: 'Press',
+	// 	links: ['Logos', 'Events', 'Stories', 'Office'],
+	// },
 	{
 		title: 'Legal',
 		links: ['GDPR', 'Privacy Policy', 'Terms of Service', 'Disclaimer'],
