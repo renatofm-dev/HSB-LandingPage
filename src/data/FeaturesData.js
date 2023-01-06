@@ -2,7 +2,7 @@ import React from 'react';
 
 import { BsFillShieldLockFill } from 'react-icons/bs';
 import { AiOutlineException } from 'react-icons/ai';
-import { AiOutlineBarChart } from 'react-icons/ai';
+import { AiTwotoneBank } from 'react-icons/ai';
 import { BiSupport, BiDollar } from 'react-icons/bi';
 import { GrHostMaintenance } from 'react-icons/gr';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
@@ -39,10 +39,10 @@ export const featuresData = [
 		imgClass: 'five',
 	},
 	{
-		name: 'Scalable',
+		name: 'Redução de Imposto',
 		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineBarChart),
+			'redução dos impostos pagos referentes aos bens e suas receitas.',
+		icon: iconStyle(AiTwotoneBank),
 		imgClass: 'six',
 	},
 ];
