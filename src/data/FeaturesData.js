@@ -1,40 +1,40 @@
 import React from 'react';
 
 import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
+import { AiOutlineException } from 'react-icons/ai';
+import { AiOutlineBarChart } from 'react-icons/ai';
 import { BiSupport, BiDollar } from 'react-icons/bi';
 import { GrHostMaintenance } from 'react-icons/gr';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
+		name: 'Blindagem Patrimonial',
+		description: 'Proteja seu patrimônio de qualquer adversidade que possa ocorrer',
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',
 	},
 	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
-		icon: iconStyle(IoIosOptions),
+		name: 'Inventário',
+		description: 'O custo do inventário pode chegar até 54% dos bens',
+		icon: iconStyle(AiOutlineException),
 		imgClass: 'two',
 	},
 	{
-		name: 'Maintenance',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
+		name: 'Manutenção Jurídica',
+		description: 'Todos os serviços voltados para a manutenção da Holding',
 		icon: iconStyle(GrHostMaintenance),
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
+		name: 'Suporte Integral',
+		description: 'Suporte integral de segunda-feira a sexta-feira das 08:00 as 18:00',
 		icon: iconStyle(BiSupport),
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
+		name: 'Valor Acessível',
+		description: 'Valor acessível de acordo com cada patrimònio',
 		icon: iconStyle(BiDollar),
 		imgClass: 'five',
 	},
@@ -42,7 +42,7 @@ export const featuresData = [
 		name: 'Scalable',
 		description:
 			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
+		icon: iconStyle(AiOutlineBarChart),
 		imgClass: 'six',
 	},
 ];

@@ -7,7 +7,7 @@ export const footerSocialData = [
 	{
 		name: 'Facebook',
 		icon: iconStyle(FaFacebook),
-		link: "/",
+		link: "https://www.facebook.com/holdingsystem",
 	},
 	{
 		name: 'Instagram',
