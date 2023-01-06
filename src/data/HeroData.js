@@ -4,7 +4,7 @@ export const heroOne = {
 	topLine: {
 		text: 'Holding System Brazil',
 	},
-	headline: "Ajudando pessoas na defesa patrimonial ",
+	headline: "Ajudando Pessoas na Defesa Patrimonial ",
 	description: 'Cuidamos de Holdings Familiares ao redor do mundo',
 	buttonLabel: 'Contrate Agora',
 	imgStart: 'start',
@@ -18,7 +18,7 @@ export const heroTwo = {
 	topLine: {
 		text: 'Holding Familiar',
 	},
-	headline: 'O melhor para você e sua família',
+	headline: 'O Melhor Para Você e Sua Família',
 	description: 'Planejamento sucessório, Redução de custos de Inventário, Redução de custos Tributários',
 	buttonLabel: 'veja mais',
 
@@ -32,11 +32,11 @@ export const heroThree = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Highly reputed brand',
+		text: 'Taxas e Impostos',
 	},
-	headline: 'Why us? ',
+	headline: 'Redução de Carga Tributária e Benefícios Fiscais',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
+		'O sistema Holding tem a tributação incidente significamente menor em comparação a tributação de pessoa física',
 	buttonLabel: 'veja mais',
 
 	linkTo: '/download',
