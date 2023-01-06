@@ -16,10 +16,10 @@ export const heroTwo = {
 	reverse: false,
 	inverse: false,
 	topLine: {
-		text: 'Designed & Developed',
+		text: 'Holding Familiar',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
+	headline: 'O melhor para você e sua família',
+	description: 'Planejamento sucessório, Redução de custos de Inventário, Redução de custos Tributários',
 	buttonLabel: 'veja mais',
 
 	linkTo: '/more',
