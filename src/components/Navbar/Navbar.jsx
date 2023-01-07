@@ -11,7 +11,7 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
-} from './NavbarStyles.js';
+} from './NavbarStyles';
 import { useLocation, useHistory } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
 
