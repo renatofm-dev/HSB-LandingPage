@@ -45,7 +45,9 @@ function Pricing() {
 											</PricingCardFeature>
 										))}
 									</PricingCardFeatures>
-									<Button>Get Started</Button>
+										<a href='/'>
+											<Button>Contrate Agora</Button>
+										</a>
 								</PricingCardInfo>
 							</PricingCard>
 						))}

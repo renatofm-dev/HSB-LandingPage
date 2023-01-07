@@ -7,6 +7,8 @@ export const heroOne = {
 	headline: "Ajudando Pessoas na Defesa Patrimonial ",
 	description: 'Cuidamos de Holdings Familiares ao redor do mundo',
 	buttonLabel: 'Contrate Agora',
+
+	linkTo: '/pricing',
 	imgStart: 'start',
 	img: './assets/svg/contract.svg',
 	start: 'true',

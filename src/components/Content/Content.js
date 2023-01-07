@@ -25,6 +25,7 @@ export const Content = ({
 	alt,
 	inverse,
 	reverse,
+	linkTo,
 }) => {
 	const initial = { opacity: 0, y: 30 };
 	const animation = useAnimation();
@@ -69,15 +70,18 @@ export const Content = ({
 							>
 								{description}
 							</Subtitle>
-							<ContentButton
-								initial={initial}
-								transition={{ delay: 1, duration: 0.6 }}
-								animate={animation}
-								inverse={inverse}
-								primary={primary}
-							>
-								{buttonLabel}
-							</ContentButton>
+							<a href={linkTo}>
+								<ContentButton
+									initial={initial}
+									transition={{ delay: 1, duration: 0.6 }}
+									animate={animation}
+									inverse={inverse}
+									primary={primary}
+								>
+									{buttonLabel}
+								</ContentButton>
+							</a>
+
 						</TextWrapper>
 					</ContentColumn>
 					<ContentColumn
