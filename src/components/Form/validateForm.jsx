@@ -13,16 +13,16 @@ export default function validateForm({ name, email, password, confirmPass }) {
 	} else if (regex.test(email.toLocalLowerCase)) {
 		return 'Email address is invalid';
 	}
-	if (!password) {
-		return 'Password is required';
-	} else if (password.length < 6) {
-		return 'Password needs to be 6 characters or more';
-	}
+	// if (!password) {
+	// 	return 'Password is required';
+	// } else if (password.length < 6) {
+	// 	return 'Password needs to be 6 characters or more';
+	// }
 
-	if (!confirmPass) {
-		return 'Enter Confirm password is required';
-	} else if (confirmPass !== password) {
-		return 'Passwords do not match';
-	}
+	// if (!confirmPass) {
+	// 	return 'Enter Confirm password is required';
+	// } else if (confirmPass !== password) {
+	// 	return 'Passwords do not match';
+	// }
 	return null;
 }

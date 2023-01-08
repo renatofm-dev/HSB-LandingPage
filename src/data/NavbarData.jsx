@@ -9,7 +9,7 @@ export const data = [
 		text: 'Serviços',
 	},
 	{
-		to: '/signup',
+		to: '/contact',
 		text: 'Contato',
 	},
 ];

@@ -5,9 +5,10 @@ import Navbar from './components/Navbar/Navbar';
 
 //Pages
 import Home from './pages/Home';
-import SignUp from './pages/SignupPage';
+//import SignUp from './pages/SignupPage';
 import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 function App() {
 	return (
@@ -16,7 +17,7 @@ function App() {
 			<Navbar />
 			<Switch>
 				<Route path="/" exact component={Home} />
-				<Route path="/signup" exact component={SignUp} />
+				<Route path="/Contact" exact component={Contact} />
 				<Route path="/pricing" exact component={Pricing} />
 			</Switch>
 			<Footer />
