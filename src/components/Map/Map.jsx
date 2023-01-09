@@ -9,9 +9,9 @@ const Map = () => {
         lng: -47.885143228835325
     }
 
-    const { isLoaded} = useJsApiLoader({
+    const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyD5nQ7hRTXOj8M7Pkr02jalrYOhpmhl8AA",
+        googleMapsApiKey: process.env.NEXT_PUBLIC_HSB_MAP_API_KEY,
     })
 
     return <MapDiv>
