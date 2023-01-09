@@ -60,7 +60,7 @@ export const PricingCardInfo = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 24px;
-	color: #fff;
+	color: #fefefe;
 	margin: auto;
 	> button {
 		margin-top: auto;

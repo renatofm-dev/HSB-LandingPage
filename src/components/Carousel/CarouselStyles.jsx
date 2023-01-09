@@ -64,7 +64,7 @@ export const CardButton = styled.button`
 	background-color: #1d609c;
 	font-size: 1.3rem;
 	padding: 5px 10px;
-	color: #fff;
+	color: #fefefe;
 	cursor: pointer;
 	width: 100%;
 	font-weight: 600;

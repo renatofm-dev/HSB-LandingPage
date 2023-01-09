@@ -2,9 +2,9 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
 export const FormSection = styled.div`
-	/* color: #fff; */
+	/* color: #fefefe; */
 	padding: 160px 0;
-	/* background: ${({ inverse }) => (inverse ? '#101522' : '#fff')}; */
+	/* background: ${({ inverse }) => (inverse ? '#101522' : '#fefefe')}; */
 	background: #101522;
 `;
 
@@ -114,7 +114,7 @@ export const FormButton = styled.button`
 	background: none;
 	margin-top: 1.5rem;
 	white-space: nowrap;
-	/* color: #fff; */
+	/* color: #fefefe; */
 	outline: none;
 	width: 100%;
 	font-size: 1.4rem;

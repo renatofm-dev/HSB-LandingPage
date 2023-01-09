@@ -20,7 +20,7 @@ function Pricing() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 			<PricingSection id="pricing">
 				<PricingWrapper>
-					<Heading>Pick Your Best Option</Heading>
+					<Heading>Escolha a Melhor Opção Para o Seu Patrimônio</Heading>
 
 					<TextWrapper
 						mb="1.4rem"
@@ -29,7 +29,7 @@ function Pricing() {
 						color="white"
 						align="center"
 					>
-						Create, maintain and store your data with Delta.
+						Melhorando a saúde e segurança de seu patrimônio em todo o Brasil
 					</TextWrapper>
 					<PricingContainer>
 						{pricingData.map((card, index) => (

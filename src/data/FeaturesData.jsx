@@ -34,7 +34,7 @@ export const featuresData = [
 	},
 	{
 		name: 'Valor Acessível',
-		description: 'Valor acessível de acordo com cada patrimònio',
+		description: 'Valor acessível de acordo com cada patrimônio',
 		icon: iconStyle(BiDollar),
 		imgClass: 'five',
 	},

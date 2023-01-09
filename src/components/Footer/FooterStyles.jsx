@@ -21,7 +21,7 @@ export const FooterSubscription = styled.section`
 	text-align: center;
 	margin-bottom: 24px;
 	padding: 24px;
-	color: #fff;
+	color: #fefefe;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -90,7 +90,7 @@ export const FooterLinkItems = styled.div`
 	margin: 16px;
 	text-align: left;
 	box-sizing: border-box;
-	color: #fff;
+	color: #fefefe;
 
 	@media screen and (max-width: 1000px) {
 		align-items: center;
@@ -102,7 +102,7 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled(Link)`
-	color: #fff;
+	color: #fefefe;
 	text-decoration: none;
 	margin-bottom: 0.5rem;
 
@@ -113,7 +113,7 @@ export const FooterLink = styled(Link)`
 `;
 
 export const FooterLogo = styled(Link)`
-	color: #fff;
+	color: #fefefe;
 	justify-self: start;
 	cursor: pointer;
 	text-decoration: none;
@@ -129,7 +129,7 @@ export const SocialIcon = styled.img`
 `;
 
 export const FooterRights = styled.div`
-	color: #fff;
+	color: #fefefe;
 	margin-bottom: 16px;
 	width: 100%;
 	font-size: 0.8rem;
@@ -140,7 +140,7 @@ export const FooterRights = styled.div`
 `;
 
 export const FooterSocialIcon = styled.a`
-	color: #fff;
+	color: #fefefe;
 	font-size: 24px;
 `;
 

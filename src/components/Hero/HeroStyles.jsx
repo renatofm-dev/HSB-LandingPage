@@ -25,7 +25,7 @@ export const HeroText = styled.p`
 	line-height: 24px;
 	text-align: center;
 	letter-spacing: 2px;
-	color: #fff;
+	color: #fefefe;
 `;
 
 export const ButtonWrapper = styled.div`
@@ -40,7 +40,7 @@ export const HeroButton = styled(Button)`
 	color: black;
 
 	&:before {
-		background: #fff;
+		background: #fefefe;
 		height: 500%;
 	}
 

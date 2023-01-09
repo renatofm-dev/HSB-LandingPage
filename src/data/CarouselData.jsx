@@ -1,30 +1,35 @@
 export const data = [
 	{
-		title: 'What our clients say',
+		title: 'Redução de Carga Tributária',
 		description:
-			'Our clients happily stay with our services for more several years now. See real reviews from our clients.',
-		image: './assets/clients.jpg',
+			'A receita gerada em uma administração jurídica de imóveis sofre tribvutops menores que as cobradas de pessoas físicas.',
+		image: './assets/finance.jpg',
+		link: '/',
 	},
 	{
-		title: 'Our security ',
-		description: 'saiba mais about our security systems to make sure your data is always safe',
-		image: './assets/security.jpg',
+		title: 'Blindagem Patrimonial Familiar',
+		description: 'Melhor mecanismo utilizado para blindar juridicamente  o patrimônio de pessoas físicas.',
+		image: './assets/family-holding.jpg',
+		link: '/',
 	},
 	{
-		title: 'Our Team',
-		description: 'Our team consists of the best experts in the industry, learn about them',
-		image: './assets/teamwork.jpg',
+		title: 'Planejamento Sucessório',
+		description: 'Possível determinar previamente como será realizada a divisão dos patrimônios se o titular falecer.',
+		image: './assets/grandparents.jpg',
+		link: '/',
 	},
 	{
-		title: 'Our servers',
-		description: 'Find more about hardware and software used for your service',
-		image: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?cs=srgb&dl=pexels-manuel-geissinger-325229.jpg&fm=jpg',
+		title: 'Planejamento Fiscal',
+		description: 'Pode haver uma perda de patrimônio caso não haja um planejamento em relação às cargas dos tributos.',
+		image: './assets/tax-planning.jpg',
+		link: '/',
 	},
-	{
-		title: 'Our top clients',
-		description: 'We have provided services to top clients in tech industry',
-		image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80',
-	},
+	// {
+	// 	title: 'Our top clients',
+	// 	description: 'We have provided services to top clients in tech industry',
+	// 	image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80',
+	// 	link: '/',
+	// },
 ];
 
 export const sliderSettings = {

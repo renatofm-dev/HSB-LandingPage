@@ -15,6 +15,7 @@ import {
 import { Container } from '../../globalStyles';
 import validateForm from '../Form/validateForm';
 
+
 const Contact = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
