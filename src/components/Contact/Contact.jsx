@@ -14,6 +14,7 @@ import {
 } from './ContactStyles';
 import { Container } from '../../globalStyles';
 import validateForm from '../Form/validateForm';
+import Map from '../Map/Map';
 
 
 const Contact = () => {
@@ -100,6 +101,7 @@ const Contact = () => {
 				</FormRow>
 			</Container>
 		</FormSection>
+		<Map/>
         </>
 	);
 };
