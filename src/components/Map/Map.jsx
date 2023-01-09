@@ -11,7 +11,7 @@ const Map = () => {
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: process.env.NEXT_PUBLIC_HSB_MAP_API_KEY,
+        googleMapsApiKey: process.env.REACT_APP_HSB_MAP_API_KEY,
     })
 
     return <MapDiv>
