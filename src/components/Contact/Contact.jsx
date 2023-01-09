@@ -15,6 +15,8 @@ import {
 import { Container } from '../../globalStyles';
 import validateForm from '../Form/validateForm';
 import Map from '../Map/Map';
+import emailjs from '@emailjs/browser'
+
 
 
 const Contact = () => {
@@ -35,8 +37,30 @@ const Contact = () => {
 		setName('');
 		setEmail('');
 		setError(null);
-		setSuccess('Application was submitted!');
+		setSuccess('Mensagem Enviada com Sucesso');
         setMessage('');
+
+		const templateParams = {
+			from_name: name,
+			message: message,
+			email: email,
+		}
+
+		emailjs.send(
+		"service_ligue1e", 
+		"template_t2xkf58", 
+		templateParams,
+		"etxF_wGCPf3jjFzFh")
+		.then((response) => {
+			console.log("email enviado com sucesso", response.status, response.text)
+			setName('');
+			setEmail('');
+			setMessage('');
+		}, (error) => {
+			console.log("ERROR", error)
+		})
+
+
 	};
 
 	const messageVariants = {
@@ -46,7 +70,8 @@ const Contact = () => {
 
 	const formData = [
 		{ label: 'Name', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
-		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email' },
+		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email'},
+		// { label: 'Message', value: message, onChange: (e) => setMessage(e.value), type: 'text'},
 
 	];
 	return (
