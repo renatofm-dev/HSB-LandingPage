@@ -77,3 +77,8 @@ export const CardButton = styled.button`
 		transition: background-color 0.2s ease-in;
 	}
 `;
+
+export const CarouselLinkButton = styled.a`
+	text-decoration: none;
+	width: 100%
+`

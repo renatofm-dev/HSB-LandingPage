@@ -46,7 +46,7 @@ function Footer() {
 						<FooterLinkItems key={index}>
 							<FooterLinkTitle>{footerItem.title}</FooterLinkTitle>
 							{footerItem.links.map((link, linkIndex) => (
-								<FooterLink key={linkIndex} to="/name">
+								<FooterLink key={linkIndex} to="/">
 									{link}
 								</FooterLink>
 							))}

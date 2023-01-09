@@ -24,7 +24,7 @@ export const heroTwo = {
 	description: 'Planejamento sucessório, Redução de custos de Inventário, Redução de custos Tributários',
 	buttonLabel: 'veja mais',
 
-	linkTo: '/more',
+	linkTo: 'https://danielfrederighi.jusbrasil.com.br/artigos/1276896216/por-que-fazer-uma-holding-patrimonial',
 	imgStart: 'start',
 	img: './assets/svg/family-health.svg',
 	start: 'true',
@@ -34,14 +34,14 @@ export const heroThree = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Taxas e Impostos',
+		text: 'Taxas & Impostos',
 	},
 	headline: 'Redução de Carga Tributária e Benefícios Fiscais',
 	description:
 		'O sistema Holding tem a tributação incidente significamente menor em comparação a tributação de pessoa física',
 	buttonLabel: 'veja mais',
 
-	linkTo: '/download',
+	linkTo: 'https://advocacia-amdantas.jusbrasil.com.br/artigos/572618989/vantagens-tributarias-e-beneficios-fiscais-da-holding-patrimonial',
 	imgStart: '',
 	img: './assets/svg/why-us.svg',
 	start: 'true',

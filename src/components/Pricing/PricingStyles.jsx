@@ -114,3 +114,5 @@ export const PricingCardFeature = styled.li`
 		margin-right: 0.4rem;
 	}
 `;
+
+

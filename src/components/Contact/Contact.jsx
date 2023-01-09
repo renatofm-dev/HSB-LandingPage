@@ -50,12 +50,10 @@ const Contact = () => {
 		"service_ligue1e", 
 		"template_t2xkf58", 
 		templateParams,
-		"etxF_wGCPf3jjFzFh")
+		"etxF_wGCPf3jjFzFh"
+		)
 		.then((response) => {
 			console.log("email enviado com sucesso", response.status, response.text)
-			setName('');
-			setEmail('');
-			setMessage('');
 		}, (error) => {
 			console.log("ERROR", error)
 		})
@@ -71,7 +69,7 @@ const Contact = () => {
 	const formData = [
 		{ label: 'Name', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
 		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email'},
-		// { label: 'Message', value: message, onChange: (e) => setMessage(e.value), type: 'text'},
+		
 
 	];
 	return (
