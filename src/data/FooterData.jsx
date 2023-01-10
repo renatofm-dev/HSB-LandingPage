@@ -35,7 +35,7 @@ export const footerSocialData = [
 export const footerData = [
 	{
 		title: 'Main',
-		links: ['Blog', 'FAQs', 'Support', 'About us'],
+		links: ['Blog', 'FAQs', 'Suporte', 'Sobre nós'],
 	},
 	// {
 	// 	title: 'Product',
@@ -47,6 +47,6 @@ export const footerData = [
 	// },
 	{
 		title: 'Legal',
-		links: ['GDPR', 'Privacy Policy', 'Terms of Service', 'Disclaimer'],
+		links: ['GDPR', 'Privacy Policy', 'Termos de Serviço', 'Disclaimer'],
 	},
 ];
