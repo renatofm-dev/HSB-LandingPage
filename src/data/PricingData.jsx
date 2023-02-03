@@ -2,7 +2,7 @@ export const pricingData = [
 	{
 		title: 'Holding Empresarial',
 		price: 'Melhor opção para seu Complexo Empresarial',
-		numAcc: '50-100 accounts',
+		link: 'https://bit.ly/hsb-holding-familiar',
 		features: [
 			'Blindagem Patrimonial', 
 			'Redução de Carga Tributária', 
@@ -14,7 +14,7 @@ export const pricingData = [
 	{
 		title: 'Holding Familiar',
 		price: 'Melhor opção para seu Parimônio Familiar',
-		numAcc: '50-500 accounts',
+		link: 'https://bit.ly/hsb-holding-empresarial',
 		features: [
 			'Blindagem Patrimonial',
 			'Redução de Carga Tributária',

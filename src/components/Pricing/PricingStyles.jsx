@@ -110,7 +110,7 @@ export const PricingCardFeature = styled.li`
 	font-size: 0.94rem;
 
 	&:before {
-		content: '🎧';
+		content: '⭐';
 		margin-right: 0.4rem;
 	}
 `;

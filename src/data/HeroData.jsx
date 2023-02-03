@@ -24,7 +24,7 @@ export const heroTwo = {
 	description: 'Planejamento sucessório, Redução de custos de Inventário, Redução de custos Tributários',
 	buttonLabel: 'veja mais',
 
-	linkTo: 'https://danielfrederighi.jusbrasil.com.br/artigos/1276896216/por-que-fazer-uma-holding-patrimonial',
+	linkTo: 'https://hsblog.com.br/post/holding-familiar-as-vantagens-de-consolidar-o-patrimonio-de-sua-familia',
 	imgStart: 'start',
 	img: './assets/svg/family-health.svg',
 	start: 'true',

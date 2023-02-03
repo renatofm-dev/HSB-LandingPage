@@ -1,16 +1,16 @@
 export const data = [
 	{
-		title: 'Redução de Carga Tributária',
+		title: 'Participação acionária',
 		description:
-			'A receita gerada em uma administração jurídica de imóveis sofre tribvutops menores que as cobradas de pessoas físicas.',
+			'Investir em ações pode ser uma ótima maneira de aumentar sua riqueza e atingir seus objetivos financeiros.',
 		image: './assets/finance.jpg',
-		link: '/',
+		link: 'https://hsblog.com.br/post/participacao-acionaria-um-guia-para-diferentes-tipos-de-investimentos-em-acoes',
 	},
 	{
 		title: 'Blindagem Patrimonial Familiar',
 		description: 'Melhor mecanismo utilizado para blindar juridicamente  o patrimônio de pessoas físicas.',
 		image: './assets/family-holding.jpg',
-		link: '/',
+		link: 'https://hsblog.com.br/post/holding-familiar-as-vantagens-de-consolidar-o-patrimonio-de-sua-familia',
 	},
 	{
 		title: 'Planejamento Sucessório',

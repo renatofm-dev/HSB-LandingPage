@@ -11,8 +11,9 @@ import {
 	FooterAddress,
 	FooterColumn,
 	FooterGrid,
+	FooterLinkLegal
 } from './FooterStyles';
-import { footerData, footerSocialData } from '../../data/FooterData';
+import { footerData, footerSocialData, footerDataLegal, footerDataMain } from '../../data/FooterData';
 import { Row, Section } from '../../globalStyles';
 
 function Footer() {
@@ -42,7 +43,31 @@ function Footer() {
 							))}
 						</Row>
 					</FooterColumn>
-					{footerData.map((footerItem, index) => (
+						
+
+					<FooterLinkItems>
+					<FooterLinkTitle>Main</FooterLinkTitle>
+					{footerDataMain.map((main, mIndex) => (
+						<FooterLink 
+						key={mIndex}
+						href={main.link}
+						>
+							{main.name}
+						</FooterLink>
+						
+					))}
+
+					</FooterLinkItems>
+
+					<FooterLinkLegal>
+					<FooterLinkTitle>Legal</FooterLinkTitle>
+					{footerDataLegal.map((legal,lIndex)=> (
+						<FooterLink key={lIndex} href={legal.link}>
+							{legal.name}
+						</FooterLink>
+					))}
+					</FooterLinkLegal>
+					{/* {footerData.map((footerItem, index) => (
 						<FooterLinkItems key={index}>
 							<FooterLinkTitle>{footerItem.title}</FooterLinkTitle>
 							{footerItem.links.map((link, linkIndex) => (
@@ -51,7 +76,7 @@ function Footer() {
 								</FooterLink>
 							))}
 						</FooterLinkItems>
-					))}
+					))} */}
 				</FooterGrid>
 				<FooterRights>Holding System Brazil © 2021</FooterRights>
 			</FooterWrapper>

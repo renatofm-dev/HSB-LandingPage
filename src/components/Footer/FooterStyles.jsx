@@ -91,20 +91,37 @@ export const FooterLinkItems = styled.div`
 	text-align: left;
 	box-sizing: border-box;
 	color: #fefefe;
+	
 
 	@media screen and (max-width: 1000px) {
 		align-items: center;
 	}
 `;
 
+export const FooterLinkLegal = styled.div`
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	color: #fefefe;
+	box-sizing: border-box;
+	margin: 16px;
+	
+	@media screen and (max-width: 1000px) {
+		align-items: center;
+	}
+
+
+`
+
 export const FooterLinkTitle = styled.h2`
 	margin-bottom: 16px;
 `;
 
-export const FooterLink = styled(Link)`
+export const FooterLink = styled.a`
 	color: #fefefe;
 	text-decoration: none;
 	margin-bottom: 0.5rem;
+	cursor: pointer;
 
 	&:hover {
 		color: #0467fb;
