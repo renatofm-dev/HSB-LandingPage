@@ -89,6 +89,15 @@ export const FormInput = styled.input`
 	font-size: 1rem;
 `;
 
+export const FormCaptcha = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+
+`
+
 export const FormLabel = styled.label`
 	display: inline-block;
 	font-size: 0.9rem;
