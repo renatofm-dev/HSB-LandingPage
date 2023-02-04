@@ -8,7 +8,7 @@ export const heroOne = {
 	description: 'Cuidamos de Holdings Familiares ao redor do mundo',
 	buttonLabel: 'Contrate Agora',
 
-	linkTo: '/pricing',
+	linkTo: 'https://bit.ly/hsb-holding-familiar',
 	imgStart: 'start',
 	img: './assets/svg/contract.svg',
 	start: 'true',

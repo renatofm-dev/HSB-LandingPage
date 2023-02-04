@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import { createMemoryHistory } from 'history';
 
 //Pages
 import Home from './pages/Home';
@@ -14,7 +13,6 @@ import Contact from './components/Contact/Contact';
 
 function App() {
 	
-	const history = createMemoryHistory();
 
 	useEffect(() => {
 		window.gtag('config', `${process.env.REACT_APP_HSB_GTAG_ANALYTICS_ID}`, {
@@ -23,7 +21,7 @@ function App() {
 	  }, []);
 
 	return (
-		<Router history={history}>
+		<Router>
 			<GlobalStyle />
 			<Navbar />
 			<Switch>
