@@ -32,7 +32,9 @@ const Carousel = () => {
 			<ReviewSlider {...sliderSettings} ref={setSliderRef}>
 				{data.map((el, index) => (
 					<ImageWrapper key={index}>
-						<CarouselImage src={el.image} />
+						<CarouselImage
+							alt={el.alt}
+							src={el.image} />
 						<TextWrapper size="1.1rem" margin="0.4rem 0 0" weight="bold">
 							{el.title}
 						</TextWrapper>

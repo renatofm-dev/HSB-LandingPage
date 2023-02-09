@@ -127,6 +127,10 @@ export const FooterLink = styled.a`
 		color: #0467fb;
 		transition: 0.3s ease-out;
 	}
+	@media screen and (max-width: 820px) {
+		font-size: 2rem;
+	}
+
 `;
 
 export const FooterLogo = styled(Link)`

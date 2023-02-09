@@ -24,7 +24,7 @@ export const heroTwo = {
 	},
 	headline: 'O Melhor Para Você e Sua Família',
 	description: 'Planejamento sucessório, Redução de custos de Inventário, Redução de custos Tributários',
-	buttonLabel: 'veja mais',
+	buttonLabel: 'Proteja Sua Família',
 
 	linkTo: 'https://hsblog.com.br/post/holding-familiar-as-vantagens-de-consolidar-o-patrimonio-de-sua-familia',
 	imgStart: 'start',
@@ -43,7 +43,7 @@ export const heroThree = {
 	headline: 'Redução de Carga Tributária e Benefícios Fiscais',
 	description:
 		'O sistema Holding tem a tributação incidente significamente menor em comparação a tributação de pessoa física',
-	buttonLabel: 'veja mais',
+	buttonLabel: 'Reduza seus Impostos',
 
 	linkTo: 'https://advocacia-amdantas.jusbrasil.com.br/artigos/572618989/vantagens-tributarias-e-beneficios-fiscais-da-holding-patrimonial',
 	imgStart: '',

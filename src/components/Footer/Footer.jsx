@@ -13,7 +13,7 @@ import {
 	FooterGrid,
 	FooterLinkLegal
 } from './FooterStyles';
-import { footerData, footerSocialData, footerDataLegal, footerDataMain } from '../../data/FooterData';
+import {  footerSocialData, footerDataLegal, footerDataMain } from '../../data/FooterData';
 import { Row, Section } from '../../globalStyles';
 
 function Footer() {
