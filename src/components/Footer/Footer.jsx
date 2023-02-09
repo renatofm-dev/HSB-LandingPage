@@ -23,7 +23,9 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo-hsb192.png" />
+							<SocialIcon 
+							alt='logo Holding System Brazil'
+							src="./assets/logo-hsb192.png" />
 							HSB
 						</FooterLogo>
 						<FooterAddress>
