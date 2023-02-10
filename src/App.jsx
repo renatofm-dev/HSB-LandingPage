@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import CookieConsent from 'react-cookie-consent';
 
 
 function App() {
@@ -30,6 +31,18 @@ function App() {
 				<Route path="/pricing" exact component={Pricing} />
 
 			</Switch>
+			<CookieConsent 
+				debug={true}
+				location='bottom'
+				style={{backgroundColor: '#000', textAlign: 'left', opacity: '80%'}}
+				buttonStyle={{color: 'black', background: 'white', fontSize: '16px', fontWeight: 'bold',}}
+				buttonText="Estou Ciente"
+				expires={365}
+				>
+					Aviso sobre Cookies: Nós utilizamos cookies em nosso site para melhorar sua
+					experiência de navegação e personalizar o conteúdo. Ao continuar a navegar em nosso site,
+					você concorda com nossa política de cookies. Saiba mais sobre nossa <a href='https://bit.ly/hsb-politica-privacidade'>política de privacidade</a>.
+			</CookieConsent>
 			<Footer />
 		</Router>
 	);
