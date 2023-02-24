@@ -7,6 +7,9 @@ export const HeroSection = styled.section`
 	background-size: cover;
 	padding-top: clamp(70px, 25vh, 220px);
 	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+	
+
 `;
 
 export const HeroVideo = styled.video`
@@ -17,6 +20,7 @@ export const HeroVideo = styled.video`
 	top: 0;
 	position: absolute;
 	z-index: -1;
+	opacity: 0.4;
 `;
 
 export const HeroText = styled.p`
@@ -42,6 +46,7 @@ export const HeroButton = styled(Button)`
 	&:before {
 		background: #fefefe;
 		height: 500%;
+		opacity: 1;
 	}
 
 	&:hover:before {

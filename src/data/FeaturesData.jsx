@@ -9,7 +9,7 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Blindagem Patrimonial',
+		name: 'Proteção Patrimonial',
 		description: 'Proteja seu patrimônio de qualquer adversidade que possa ocorrer',
 		icon: iconStyle(BsFillShieldLockFill),
 		imgClass: 'one',

@@ -4,7 +4,7 @@ export const pricingData = [
 		price: 'Melhor opção para seu Complexo Empresarial',
 		link: 'https://bit.ly/hsb-holding-familiar',
 		features: [
-			'Blindagem Patrimonial', 
+			'Proteção Patrimonial', 
 			'Redução de Carga Tributária', 
 			'Suporte Integral', 
 			'Manutenção Jurídica', 
@@ -16,7 +16,7 @@ export const pricingData = [
 		price: 'Melhor opção para seu Parimônio Familiar',
 		link: 'https://bit.ly/hsb-holding-empresarial',
 		features: [
-			'Blindagem Patrimonial',
+			'Proteção Patrimonial',
 			'Redução de Carga Tributária',
 			'Suporte Integral',
 			'Manutenção Jurídica',

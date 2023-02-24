@@ -116,3 +116,16 @@ export const PricingCardFeature = styled.li`
 `;
 
 
+export const PricingHeading = styled.h1`
+	font-size: clamp(1.3rem, 13vw, 3.1rem);
+	margin: ${({ margin }) => (margin ? margin : '')};
+	margin-bottom: ${({ mb }) => (mb ? mb : '')};
+	margin-top: ${({ mt }) => (mt ? mt : '')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fefefe')};
+	letter-spacing: 0.4rem;
+	line-height: 1.06;
+	text-align: center;
+	width: ${({ width }) => (width ? width : '100%')};
+`;
+
+

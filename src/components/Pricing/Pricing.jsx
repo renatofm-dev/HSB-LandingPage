@@ -12,6 +12,7 @@ import {
 	PricingCardText,
 	PricingCardFeature,
 	PricingCard,
+	PricingHeading,
 } from './PricingStyles';
 import { pricingData } from '../../data/PricingData';
 
@@ -20,8 +21,7 @@ function Pricing() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 			<PricingSection id="pricing">
 				<PricingWrapper>
-					<Heading>Escolha a Melhor Opção Para o Seu Patrimônio</Heading>
-
+					<PricingHeading>Escolha a Melhor Opção Para o Seu Patrimônio</PricingHeading>
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"
