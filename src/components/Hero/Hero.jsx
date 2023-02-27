@@ -15,7 +15,11 @@ const Hero = () => {
           <a about='link para saber mais sobre Holding Familiar' href='https://hsblog.com.br/'>
             <Button>Saiba mais</Button>
           </a>
-          <a about='link para fazer uma Holding Familiar' href='https://bit.ly/hsb-holding-familiar'>
+          <a 
+            about='link para fazer uma Holding Familiar' 
+            href='https://bit.ly/hsb-holding-familiar'
+            onClick='return gtag_report_conversion(https://bit.ly/hsb-holding-familiar)'
+          >
             <HeroButton>Contato</HeroButton>
           </a>
 
