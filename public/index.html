@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<meta name="description" content="Holding System Brazil - Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora." 
-		/>
-		<!-- Primary Meta Tags -->
-<title>Holding Familiar | Planejamento Patrimonial | Holding System Brazil</title>
-<meta name="title" content="Holding Familiar | Planejamento Patrimonial | Holding System Brazil">
-<meta name="description" content="Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora.">
 
-<!-- Open Graph / Facebook -->
-<!-- <meta property="og:type" content="website">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<!-- <meta name="description" content="Holding System Brazil - Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora." 
+		/> -->
+	<!-- Primary Meta Tags -->
+	<title>Holding Familiar | Planejamento Patrimonial | Holding System Brazil</title>
+	<meta name="title" content="Holding Familiar | Planejamento Patrimonial | Holding System Brazil">
+	<meta name="description"
+		content="Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora.">
+
+	<!-- Open Graph / Facebook -->
+	<!-- <meta property="og:type" content="website">
 <meta property="og:url" content="https://images2.imgbox.com/15/06/WmxXDNaM_o.png">
 <meta property="og:title" content="Holding Familiar | Blindagem Patrimonial | Holding System Brazil">
 <meta property="og:description" content="Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora.">
 <meta property="og:image" content="https://images2.imgbox.com/15/06/WmxXDNaM_o.png"> -->
 
-<!-- Twitter -->
-<!-- <meta property="twitter:card" content="summary_large_image">
+	<!-- Twitter -->
+	<!-- <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://www.hugedomains.com/domain_profile.cfm?d=holdingsystem.com">
 <meta property="twitter:title" content="Holding Familiar | Blindagem Patrimonial | Holding System Brazil">
 <meta property="twitter:description" content="Especialistas em implementação de holdings familiares. Oferecemos soluções personalizadas e eficazes para preservar seu patrimônio. Equipe capacitada em Brasília garante seu sucesso financeiro. Entre em contato agora.">
 <meta property="twitter:image" content="https://images2.imgbox.com/15/06/WmxXDNaM_o.png"> -->
 
 
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-		<!--
+	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+	<!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-		<!--
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -43,44 +45,61 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap"
-			rel="stylesheet"
-		/>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap"
+		rel="stylesheet" />
 
-		<!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=REACT_APP_HSB_GTAG_ANALYTICS_ID"> </script>
-		<script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=REACT_APP_HSB_GTAG_ANALYTICS_ID"> </script>
+	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', `${process.env.REACT_APP_HSB_GTAG_ANALYTICS_ID}`);
-		</script>
+	</script>
+
+	</script>
+
+	<!-- Event snippet for Click Botao contato conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof (url) != 'undefined') {
+					window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-11085812447/pG-qCLaywo4YEN-lkKYp',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
 
 
 
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=%REACT_APP_HSB_MAP_API_KEY%&callback=initMap"
+		type="text/javascript"></script>
 
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=%REACT_APP_HSB_MAP_API_KEY%&callback=initMap"
-		type="text/javascript"></script>		
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("YOUR_PUBLIC_KEY");
+		})();
+	</script>
 
-		<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-		</script>
-		<script type="text/javascript">
-			(function(){
-				emailjs.init("YOUR_PUBLIC_KEY");
-			})();
-		</script>
-		
-		<!-- <title>Holding System Brazil</title> -->
-	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
-		<!--
+	<!-- <title>Holding System Brazil</title> -->
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+	<!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -89,5 +108,7 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    --></body>
+    -->
+</body>
+
 </html>
