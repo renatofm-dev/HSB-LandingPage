@@ -5,7 +5,7 @@ import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './H
 const Hero = () => {
   return (
     <HeroSection>
-      <HeroVideo src="./assets/hero.mp4" autoPlay muted loop  preload='none'/>
+      <HeroVideo src="./assets/hero-1.mp4" autoPlay muted  preload='auto'/>
       <Container>
         <MainHeading>Planejamento Patrimonial Inteligente</MainHeading>
         <HeroText>

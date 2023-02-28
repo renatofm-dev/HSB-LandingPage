@@ -34,7 +34,9 @@ const Carousel = () => {
 					<ImageWrapper key={index}>
 						<CarouselImage
 							alt={el.alt}
-							src={el.image} />
+							src={el.image}
+							loading='lazy'
+						/>
 						<TextWrapper size="1.1rem" margin="0.4rem 0 0" weight="bold">
 							{el.title}
 						</TextWrapper>
