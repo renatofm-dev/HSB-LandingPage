@@ -41,12 +41,12 @@ export const ButtonWrapper = styled.div`
 `;
 
 export const HeroButton = styled(Button)`
-	color: black;
+	color: white;
 
 	&:before {
-		background: #fefefe;
+		background: #F7AB0A;
 		height: 500%;
-		opacity: 1;
+		opacity: none;
 	}
 
 	&:hover:before {
@@ -54,6 +54,7 @@ export const HeroButton = styled(Button)`
 	}
 
 	&:hover {
-		color: white;
+		color: black;
+		text-weight: bold;
 	}
 `;
