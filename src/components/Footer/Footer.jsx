@@ -29,7 +29,7 @@ function Footer() {
 							HSB
 						</FooterLogo>
 						<FooterAddress>
-						Edifício Fusion Working Live, SHN Q. 1 BL D S. 408B - Asa Norte, Brasília - DF, 70701-040
+						Edifício Fusion Working Live, SHN Q. 1 BL D S. 511B - Asa Norte, Brasília - DF, 70701-040
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
