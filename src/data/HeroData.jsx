@@ -53,20 +53,4 @@ export const heroThree = {
 	alt: 'Imagem de uma pessoa satisfeita com a redução da carga tributária e seus benefícios fiscais devido a sua Holding Patrimônial',
 };
 
-export const heroFour = {
-	reverse: false,
-	inverse: false,
-	topLine: {
-		text: 'Especialista em Holding Familiar',
-	},
-	headline: 'Dr. Jacob Miguel Machado',
-	description: 'Professor e  Advogado altamente qualificado e especializado em Planejamento Patrimonial, Holdings Familiares, Direito Empresarial e Processo Civil.',
-	buttonLabel: 'Fale com um Especialista',
 
-	linkTo: 'https://hsblog.com.br/post/holding-familiar-as-vantagens-de-consolidar-o-patrimonio-de-sua-familia',
-	imgStart: 'start',
-	img: './assets/svg/jacobmiguelmachado.svg',
-	start: 'true',
-	altLink: 'Botão para ir ao post do blog HSBlog sobre as vantages de consolidar o patrimonio de sua familia',
-	alt: 'foto do Doutor Jacob Miguel Machado especialista em Holding Familiar ',
-};

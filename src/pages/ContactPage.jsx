@@ -8,8 +8,11 @@ function SignUp() {
   
 
   return (
-
+      <>
       <Contact />
+
+      </>
+
 
   );
 }

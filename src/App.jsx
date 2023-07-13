@@ -10,6 +10,7 @@ import Pricing from './pages/PricingPage';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import CookieConsent from 'react-cookie-consent';
+import WppButton from './components/WppButton/WppButton';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
 					experiência de navegação e personalizar o conteúdo. Ao continuar a navegar em nosso site,
 					você concorda com nossa política de cookies. Saiba mais sobre nossa <a href='https://bit.ly/hsb-politica-privacidade'>política de privacidade</a>.
 			</CookieConsent>
+			<WppButton />
 			<Footer />
 		</Router>
 	);
