@@ -23,24 +23,29 @@ export const pricingData = [
 			
 		],
 	},
-	// {
-	// 	title: 'Premium',
-	// 	price: '$32.50 user/month after offer period',
-	// 	numAcc: '50-1000 accounts',
-	// 	features: [
-	// 		'Secure accounts',
-	// 		'Best for small business',
-	// 		'Customizable',
-	// 		'Easy Integration',
-	// 		'Development Team',
-	// 		'DNS & Domain included',
-	// 	],
-	// },
+	{
+		title: 'Viabilidade',
+		price: 'Primeira etapa para costituição de sua Holding',
+		numAcc: '50-1000 accounts',
+		features: [
+			'Análise físcal de todo o patrimônio',
+			'Verificação de vulnerabilidade',
+			'Análise da situação sucessória caso necessite',
+			'Melhor valor de mercado',
+		],
+	},
 
-	// {
-	// 	title: 'Enterprise',
-	// 	price: '$55.50 user/month after offer period ',
-	// 	numAcc: '1000+ Accounts',
-	// 	features: ['Unlimited Storage', 'Scalability', 'Free DNS & Domain'],
-	// },
+	{
+		title: 'Engenharia Patrimonial',
+		price: 'Otimizção da implementação da Holding',
+		numAcc: '1000+ Accounts',
+		features: [
+			'Eficiencia fiscal',
+		 	'Elaboração da planta patrimònial',
+		  	'Suporte integral',
+			'Acompanhamento jurídico'
+
+		],
+
+	},
 ];
